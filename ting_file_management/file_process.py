@@ -1,4 +1,5 @@
 from ting_file_management.file_management import txt_importer
+import sys
 
 
 def process(path_file, instance):
@@ -11,7 +12,7 @@ def process(path_file, instance):
         if itens["nome_do_arquivo"] == path_file:
             return None
     instance.enqueue(dictTxt)
-    print(instance.queue)
+    print(dictTxt)
 
 
 def remove(instance):
@@ -23,4 +24,8 @@ def remove(instance):
 
 
 def file_metadata(instance, position):
-    """Aqui irá sua implementação"""
+    try:
+        item = instance.search(position)
+        return print(item)
+    except IndexError:
+        return print("Posição inválida", file=sys.stderr)
