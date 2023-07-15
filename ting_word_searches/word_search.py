@@ -12,7 +12,7 @@ def exists_word(word, instance):
         if len(actual_lines) > 0:
             actual_dict = {}
             actual_dict["palavra"] = word
-            actual_dict["nome_do_arquivo"] = itens["nome_do_arquivo"]
+            actual_dict["arquivo"] = itens["nome_do_arquivo"]
             actual_dict["ocorrencias"] = format_lines(actual_lines)
             itens_in_instance.append(actual_dict)
     return itens_in_instance
