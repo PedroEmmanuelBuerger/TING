@@ -1,1 +1,0 @@
-print("quote", quote, "param", quoteparam)
