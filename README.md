@@ -1,39 +1,36 @@
+# TING
 
-## TING
+TING is a project developed as part of the "Trybe" course to simulate functions that would work in a search system like Google.
 
-TING é um projeto desenvolvido como parte do curso "Trybe" para simular funções que funcionariam num sistema de busca do google.
+## Features
 
-## Funcionalidades
-O projeto possui as seguintes funcionalidades:
+The project includes the following features:
 
-Pesquisa por palavras chaves dentro de um BD(No caso funciona somente com um json por não possuir integridade com o banco)
+- **Search for keywords within a database** (in this case, it works with a JSON file since there is no integration with a database).
+- **Priority search queue**, with both normal and priority queues.
+- **Request queuing system** (in FIFO format).
 
-Fila de prioridade de buscas, possuindo a fila normal e a fila prioritaria.
+## Technologies Used
 
-sistema de enfileramento para requesições(no formato de fila/FIFO)
+The project was developed using the following technologies:
 
+- **OOP (Object-Oriented Programming)**
+- **Python**
+- **PIB**
+- **Pytest**
 
-## Tecnologias Utilizadas
-O projeto foi desenvolvido utilizando as seguintes tecnologias:
+## Installation
 
-- POO
-- Python
-- PIB
-- Pytest
+To install and run the project locally, follow the steps below:
 
-## Instalação
-Para instalar e executar o projeto localmente, siga os passos abaixo:
+1. Clone the repository to your local machine: `git@github.com:PedroEmmanuelBuerger/project-TING.git`.
+2. Ensure you have the PIB library for Python installed, then run the command: `pip install`.
+3. To run the tests, execute: `python3 run tests`.
 
-Clone o repositório para sua máquina local.
-git@github.com:PedroEmmanuelBuerger/project-TING.git
+## Key Learnings
 
-Tenha a biblioteca Pib do python em sua maquina e rode o comando:
-pip install
+The main learning was how to identify the complexity of code, such as how much memory it uses and how long it takes to execute. It was also possible to learn various ways to handle code in different situations to reduce its complexity, working with arrays in stack and queue formats, all using Python.
 
-para rodar os testes execute: python3 run tests
+## Conclusion
 
-## Principais Aprendizados
-Principal aprendizado foi saber indentificar a complexidade de um código, como por exemplo o tanto que ele armazena em memória, o tanto de tempo que demora a ser executado e afins. Foi possivel tambem aprender diversos modos para lidar com código em diferentes situações para diminuir a complexidade do codigo, trabalhando com arrays em formato de pilhas e filas, tudo isso usando a linguagem Python.
-
-## Conclusão
-A aplicação foi um excelente ponto de partida para a aplicação de ciencia da computação, e tambem foi ótimo para aperfeiçoar minhas habilidades com a linguagem python, utilizando suas ferramentas e diversas bibliotecas.
+The application was an excellent starting point for applying computer science concepts and also a great way to refine my skills with the Python language, using its tools and various libraries.
